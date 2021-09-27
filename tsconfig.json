@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "lib": [ "es2018", "dom" ],
+    "noImplicitReturns": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
+    "noUnusedLocals": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "allowUnreachableCode": false,
+    "downlevelIteration": true,
+    "allowJs": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "angularCompilerOptions": {
+    "entryModule": "/app/app.module#AppModule",
+    "skipMetadataEmit": true,
+    "enableIvy": true
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}
